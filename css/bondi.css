@@ -1,11 +1,11 @@
 /* Global Config */
 
 :root {
-    --dark: #19283F;
+    --bg-dark: #19283F;
     --green: #33d1cc;
     --red: #ff3150;
     --yellow: #ffc400;
-    --section: #eff7fa;
+    --bg-light: #eff7fa;
 }
 
 body {
@@ -53,7 +53,7 @@ body {
 /* Navbar */
 
 .navbar {
-    background-color: var(--dark);
+    background-color: var(--bg-dark);
 }
 
 .navbar .navbar-toggler {
@@ -82,7 +82,7 @@ body {
 /* Landing */
 
 .landing {
-    background-color: var(--dark);
+    background-color: var(--bg-dark);
     min-height: calc(100vh - 72px);
 }
 
@@ -94,7 +94,7 @@ body {
 
 .services .content .box .number-icon {
     font-size: 12rem;
-    color: var(--section);
+    color: var(--bg-light);
 }
 
 .services .content .box .number-icon+svg {
@@ -111,7 +111,7 @@ body {
 /* Projects */
 
 .projects {
-    background-color: var(--section);
+    background-color: var(--bg-light);
 }
 
 .projects .list-filter li {
@@ -170,7 +170,7 @@ body {
 /* Team */
 
 .team {
-    background-color: var(--section);
+    background-color: var(--bg-light);
 }
 
 .team .special-title .title {
@@ -179,4 +179,16 @@ body {
 
 .team .team-cards .team-card .team-name {
     background-color: var(--green);
+}
+
+/* Start Project */
+
+.start-project {
+    background-color: var(--bg-dark);
+}
+
+/* Blog */
+
+.blog .blog-card {
+    overflow: hidden;
 }

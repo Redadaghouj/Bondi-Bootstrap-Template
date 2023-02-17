@@ -18,6 +18,7 @@ body {
     background-color: var(--red);
     color: var(--yellow);
     padding: 8px 17px;
+    font-weight: 500;
 }
 
 .main-btn:hover {
@@ -38,7 +39,7 @@ body {
     content: "";
     position: absolute;
     height: 2px;
-    width: 60%;
+    width: 120px;
     background-color: var(--green);
     bottom: 0;
     left: 50%;
@@ -157,9 +158,25 @@ body {
 }
 
 .projects .projects-grid a {
-    color: var(--yellow);
-    background-color: var(--red);
-    padding: 8px 15px;
-    font-weight: 500;
     width: fit-content;
+}
+
+/* About */
+
+.about .container>.subtitle {
+    max-width: 500px;
+}
+
+/* Team */
+
+.team {
+    background-color: var(--section);
+}
+
+.team .special-title .title {
+    color: var(--yellow);
+}
+
+.team .team-cards .team-card .team-name {
+    background-color: var(--green);
 }

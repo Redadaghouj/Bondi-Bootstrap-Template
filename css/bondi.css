@@ -186,9 +186,3 @@ body {
 .start-project {
     background-color: var(--bg-dark);
 }
-
-/* Blog */
-
-.blog .blog-card {
-    overflow: hidden;
-}

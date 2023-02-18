@@ -223,3 +223,39 @@ body {
 footer {
     background-color: var(--bg-dark);
 }
+
+footer .created-by span {
+    color: var(--green);
+}
+
+footer .copyright span {
+    color: var(--yellow);
+}
+
+footer .social-accounts li a {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+footer .social-accounts li .facebook {
+    background-color: #1877F2;
+}
+
+footer .social-accounts li .twitter {
+    background-color: #1DA1F2;
+}
+
+footer .social-accounts li .linkedin {
+    background-color: #0077B5;
+}
+
+footer .social-accounts li .youtube {
+    background-color: #FF0000;
+}

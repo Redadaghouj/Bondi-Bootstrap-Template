@@ -186,3 +186,40 @@ body {
 .start-project {
     background-color: var(--bg-dark);
 }
+
+/* Subscribe */
+
+.subscribe {
+    background-color: var(--yellow);
+}
+
+.subscribe label {
+    color: var(--bg-dark);
+}
+
+.subscribe input,
+.subscribe input:focus {
+    background-color: var(--yellow);
+    color: #fff;
+    box-shadow: none;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    font-weight: bold;
+}
+
+.subscribe input::placeholder {
+    color: #fff;
+}
+
+.subscribe button,
+.subscribe button:hover {
+    color: var(--yellow);
+    background-color: var(--bg-dark);
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--bg-dark);
+}
